@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<?pde version="3.8"?><target name="Dirigible External Dependencies" sequenceNumber="262">
+<?pde version="3.8"?><target name="Dirigible External Dependencies" sequenceNumber="264">
 <locations>
 <location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="slicer" includeSource="true" type="InstallableUnit">
 <unit id="org.eclipse.rap.examples.feature.feature.group" version="0.0.0"/>
@@ -39,6 +39,9 @@
 <unit id="org.apache.lucene.highlighter" version="3.5.0.v20121015-1317"/>
 <unit id="org.apache.lucene.queries" version="3.5.0.v20120725-1805"/>
 <unit id="org.hamcrest" version="1.1.0.v20090501071000"/>
+<unit id="org.hamcrest.integration" version="0.0.0"/>
+<unit id="org.hamcrest.library" version="0.0.0"/>
+<unit id="org.hamcrest.text" version="0.0.0"/>
 <unit id="org.mozilla.javascript" version="1.7.5.v201504281450"/>
 <unit id="org.quartz" version="1.8.3.v20110329-1420"/>
 <unit id="org.json" version="1.0.0.v201011060100"/>
@@ -58,6 +61,38 @@
 <location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="slicer" includeSource="true" type="InstallableUnit">
 <unit id="org.eclipse.mylyn.wikitext_feature.feature.group" version="0.0.0"/>
 <repository location="http://download.eclipse.org/mylyn/releases/latest"/>
+</location>
+<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="slicer" includeSource="true" type="InstallableUnit">
+<unit id="com.google.guava" version="15.0.0.v201403281430"/>
+<unit id="org.antlr.runtime" version="3.2.0.v201101311130"/>
+<unit id="com.google.inject" version="3.0.0.v201605172100"/>
+<unit id="org.apache.log4j" version="1.2.15.v201012070815"/>
+<unit id="javax.inject" version="1.0.0.v20091030"/>
+<unit id="org.apache.commons.logging" version="1.0.4.v201101211617"/>
+<unit id="org.objectweb.asm" version="5.0.1.v201404251740"/>
+<unit id="osgi.enterprise" version="4.2.0.v201108120515"/>
+<unit id="com.ibm.icu" version="0.0.0"/>
+<repository location="http://download.eclipse.org/tools/orbit/downloads/drops/R20160520211859/repository/"/>
+</location>
+<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="slicer" includeSource="true" type="InstallableUnit">
+<unit id="org.eclipse.rap.sdk.feature.feature.group" version="3.1.0.20160527-1719"/>
+<unit id="org.eclipse.rap.feature.feature.group" version="3.1.0.20160527-1719"/>
+<unit id="org.eclipse.emf.rap.sdk.feature.group" version="2.12.0.v20160526-0356"/>
+<unit id="org.eclipse.rap.equinox.target.feature.feature.group" version="3.1.0.20160607-1200"/>
+<unit id="org.eclipse.xtend.feature.group" version="0.0.0"/>
+<unit id="org.eclipse.xtext.xbase.lib.feature.group" version="0.0.0"/>
+<unit id="org.eclipse.xtend.sdk.feature.group" version="0.0.0"/>
+<unit id="org.eclipse.emf.mwe2.runtime.sdk.feature.group" version="0.0.0"/>
+<unit id="org.eclipse.emf.mwe2.language.sdk.feature.group" version="0.0.0"/>
+<unit id="org.eclipse.emf.mwe.core.feature.feature.group" version="0.0.0"/>
+<unit id="org.eclipse.emf.mwe2.launcher.feature.group" version="0.0.0"/>
+<unit id="org.eclipse.xtext.runtime.feature.group" version="0.0.0"/>
+<unit id="org.eclipse.xtext.xbase" version="0.0.0"/>
+<unit id="org.eclipse.xtext.xbase.ide" version="0.0.0"/>
+<unit id="org.eclipse.emf.codegen.ecore" version="0.0.0"/>
+<unit id="org.eclipse.xtext.junit4" version="0.0.0"/>
+<unit id="org.eclipse.xtext.xbase.junit" version="0.0.0"/>
+<repository location="http://download.eclipse.org/releases/neon"/>
 </location>
 </locations>
 <environment>
